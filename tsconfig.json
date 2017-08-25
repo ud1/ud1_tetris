@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./js/ts",
+    "sourceMap": false,
+    "baseUrl" : ".",
+    "paths": {
+      "react-bootstrap" : ["DefinitelyTyped/react-bootstrap/react-bootstrap"],
+      "react" : ["DefinitelyTyped/react/react-global"],
+      "react-dom" : ["DefinitelyTyped/react/react-dom"],
+      "messages" : ["messages/messages"]
+    }
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "DefinitelyTyped"
+  ]
+}
